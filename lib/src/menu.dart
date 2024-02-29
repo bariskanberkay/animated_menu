@@ -41,7 +41,7 @@ class _AnimatedMenuState extends State<AnimatedMenu> {
       decoration: BoxDecoration(
         borderRadius: SmoothBorderRadius(
             cornerRadius: widget.borderRadius, cornerSmoothing: 0.5),
-        border: Border.all(color: Theme.of(context).dividerColor),
+        //border: Border.all(color: Theme.of(context).dividerColor),
         boxShadow: const [
           BoxShadow(
             color: Colors.black26,
